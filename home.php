@@ -30,7 +30,7 @@ include "user_signed.php";
             </div>
           </div>
 
-          <a href="php_files/log_out.php?user_id=<?php echo $user['user_id']?>" class="logout">Logout</a>
+          <a href="log_out.php?user_id=<?php echo $user['user_id']?>" class="logout">Logout</a>
         </header>
     
       </div>
